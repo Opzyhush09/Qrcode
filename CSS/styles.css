@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+    display: grid;
+    background: #E4F1FF;
+    place-items: center;
+    min-height: 100vh;
+    text-indent: 20%;
+}
+.main-box{
+    background-color: #fff;
+    width: 400px;
+    height: 500px;
+    border-radius: 12px;
+}
+h3{
+    font-size: 1.05rem;
+    text-transform: none;
+    text-align: justify;
+    text-decoration: black;
+    font-family: sans-serif;
+    font-display: bold;
+    text-indent: 15%;
+    padding-bottom: 3%;
+    margin-block-start: auto;
+}
+
+p{
+   color: gray; 
+   font: 100;
+   font-size: 1rem;
+   font-display: 100;
+   font-style: bold;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+.qrcode{
+    width: 335px;
+    margin: auto;
+    display: block;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 15px;
+}
